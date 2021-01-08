@@ -1,0 +1,12 @@
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\coxinha-de-bueno\coxinha-de-bueno\bin\Debug\netcoreapp3.1\coxinha-de-bueno.exe
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\coxinha-de-bueno\coxinha-de-bueno\bin\Debug\netcoreapp3.1\coxinha-de-bueno.deps.json
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\coxinha-de-bueno\coxinha-de-bueno\bin\Debug\netcoreapp3.1\coxinha-de-bueno.runtimeconfig.json
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\coxinha-de-bueno\coxinha-de-bueno\bin\Debug\netcoreapp3.1\coxinha-de-bueno.runtimeconfig.dev.json
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\coxinha-de-bueno\coxinha-de-bueno\bin\Debug\netcoreapp3.1\coxinha-de-bueno.dll
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\coxinha-de-bueno\coxinha-de-bueno\bin\Debug\netcoreapp3.1\coxinha-de-bueno.pdb
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\coxinha-de-bueno\coxinha-de-bueno\obj\Debug\netcoreapp3.1\coxinha-de-bueno.AssemblyInfoInputs.cache
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\coxinha-de-bueno\coxinha-de-bueno\obj\Debug\netcoreapp3.1\coxinha-de-bueno.AssemblyInfo.cs
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\coxinha-de-bueno\coxinha-de-bueno\obj\Debug\netcoreapp3.1\coxinha-de-bueno.csproj.CoreCompileInputs.cache
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\coxinha-de-bueno\coxinha-de-bueno\obj\Debug\netcoreapp3.1\coxinha-de-bueno.dll
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\coxinha-de-bueno\coxinha-de-bueno\obj\Debug\netcoreapp3.1\coxinha-de-bueno.pdb
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\coxinha-de-bueno\coxinha-de-bueno\obj\Debug\netcoreapp3.1\coxinha-de-bueno.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\dividindo-x-por-y\dividindo-x-por-y\bin\Debug\netcoreapp3.1\dividindo-x-por-y.exe
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\dividindo-x-por-y\dividindo-x-por-y\bin\Debug\netcoreapp3.1\dividindo-x-por-y.deps.json
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\dividindo-x-por-y\dividindo-x-por-y\bin\Debug\netcoreapp3.1\dividindo-x-por-y.runtimeconfig.json
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\dividindo-x-por-y\dividindo-x-por-y\bin\Debug\netcoreapp3.1\dividindo-x-por-y.runtimeconfig.dev.json
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\dividindo-x-por-y\dividindo-x-por-y\bin\Debug\netcoreapp3.1\dividindo-x-por-y.dll
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\dividindo-x-por-y\dividindo-x-por-y\bin\Debug\netcoreapp3.1\dividindo-x-por-y.pdb
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\dividindo-x-por-y\dividindo-x-por-y\obj\Debug\netcoreapp3.1\dividindo-x-por-y.csprojAssemblyReference.cache
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\dividindo-x-por-y\dividindo-x-por-y\obj\Debug\netcoreapp3.1\dividindo-x-por-y.AssemblyInfoInputs.cache
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\dividindo-x-por-y\dividindo-x-por-y\obj\Debug\netcoreapp3.1\dividindo-x-por-y.AssemblyInfo.cs
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\dividindo-x-por-y\dividindo-x-por-y\obj\Debug\netcoreapp3.1\dividindo-x-por-y.csproj.CoreCompileInputs.cache
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\dividindo-x-por-y\dividindo-x-por-y\obj\Debug\netcoreapp3.1\dividindo-x-por-y.dll
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\dividindo-x-por-y\dividindo-x-por-y\obj\Debug\netcoreapp3.1\dividindo-x-por-y.pdb
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\dividindo-x-por-y\dividindo-x-por-y\obj\Debug\netcoreapp3.1\dividindo-x-por-y.genruntimeconfig.cache

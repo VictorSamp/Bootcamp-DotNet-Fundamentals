@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "dividindo-x-por-y/1.0.0": {
+        "runtime": {
+          "dividindo-x-por-y.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dividindo-x-por-y/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

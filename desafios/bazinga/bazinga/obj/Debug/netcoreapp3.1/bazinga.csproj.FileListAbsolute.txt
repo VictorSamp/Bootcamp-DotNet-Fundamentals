@@ -1,0 +1,13 @@
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\bazinga\bazinga\bin\Debug\netcoreapp3.1\bazinga.exe
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\bazinga\bazinga\bin\Debug\netcoreapp3.1\bazinga.deps.json
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\bazinga\bazinga\bin\Debug\netcoreapp3.1\bazinga.runtimeconfig.json
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\bazinga\bazinga\bin\Debug\netcoreapp3.1\bazinga.runtimeconfig.dev.json
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\bazinga\bazinga\bin\Debug\netcoreapp3.1\bazinga.dll
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\bazinga\bazinga\bin\Debug\netcoreapp3.1\bazinga.pdb
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\bazinga\bazinga\obj\Debug\netcoreapp3.1\bazinga.csprojAssemblyReference.cache
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\bazinga\bazinga\obj\Debug\netcoreapp3.1\bazinga.AssemblyInfoInputs.cache
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\bazinga\bazinga\obj\Debug\netcoreapp3.1\bazinga.AssemblyInfo.cs
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\bazinga\bazinga\obj\Debug\netcoreapp3.1\bazinga.csproj.CoreCompileInputs.cache
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\bazinga\bazinga\obj\Debug\netcoreapp3.1\bazinga.dll
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\bazinga\bazinga\obj\Debug\netcoreapp3.1\bazinga.pdb
+D:\workspace\bootcamp-dotnet-fundamentals\desafios\bazinga\bazinga\obj\Debug\netcoreapp3.1\bazinga.genruntimeconfig.cache
