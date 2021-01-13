@@ -1,0 +1,12 @@
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\programa-para-validacao-de-notas\programa-para-validacao-de-notas\bin\Debug\netcoreapp3.1\programa-para-validacao-de-notas.exe
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\programa-para-validacao-de-notas\programa-para-validacao-de-notas\bin\Debug\netcoreapp3.1\programa-para-validacao-de-notas.deps.json
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\programa-para-validacao-de-notas\programa-para-validacao-de-notas\bin\Debug\netcoreapp3.1\programa-para-validacao-de-notas.runtimeconfig.json
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\programa-para-validacao-de-notas\programa-para-validacao-de-notas\bin\Debug\netcoreapp3.1\programa-para-validacao-de-notas.runtimeconfig.dev.json
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\programa-para-validacao-de-notas\programa-para-validacao-de-notas\bin\Debug\netcoreapp3.1\programa-para-validacao-de-notas.dll
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\programa-para-validacao-de-notas\programa-para-validacao-de-notas\bin\Debug\netcoreapp3.1\programa-para-validacao-de-notas.pdb
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\programa-para-validacao-de-notas\programa-para-validacao-de-notas\obj\Debug\netcoreapp3.1\programa-para-validacao-de-notas.AssemblyInfoInputs.cache
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\programa-para-validacao-de-notas\programa-para-validacao-de-notas\obj\Debug\netcoreapp3.1\programa-para-validacao-de-notas.AssemblyInfo.cs
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\programa-para-validacao-de-notas\programa-para-validacao-de-notas\obj\Debug\netcoreapp3.1\programa-para-validacao-de-notas.csproj.CoreCompileInputs.cache
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\programa-para-validacao-de-notas\programa-para-validacao-de-notas\obj\Debug\netcoreapp3.1\programa-para-validacao-de-notas.dll
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\programa-para-validacao-de-notas\programa-para-validacao-de-notas\obj\Debug\netcoreapp3.1\programa-para-validacao-de-notas.pdb
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\programa-para-validacao-de-notas\programa-para-validacao-de-notas\obj\Debug\netcoreapp3.1\programa-para-validacao-de-notas.genruntimeconfig.cache

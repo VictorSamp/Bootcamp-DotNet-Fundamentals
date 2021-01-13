@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "D:\\Users\\Victor\\.nuget\\packages\\": {}
+    "C:\\Users\\Victor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace\\bootcamp-dotnet-essentials\\projetos\\api-transferencia-bancaria\\api-transferencia-bancaria\\api-transferencia-bancaria.csproj",
+      "projectUniqueName": "E:\\workspace\\bootcamp-dotnet-fundamentals\\projetos\\api-transferencia-bancaria\\api-transferencia-bancaria\\api-transferencia-bancaria.csproj",
       "projectName": "api-transferencia-bancaria",
-      "projectPath": "D:\\workspace\\bootcamp-dotnet-essentials\\projetos\\api-transferencia-bancaria\\api-transferencia-bancaria\\api-transferencia-bancaria.csproj",
-      "packagesPath": "D:\\Users\\Victor\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace\\bootcamp-dotnet-essentials\\projetos\\api-transferencia-bancaria\\api-transferencia-bancaria\\obj\\",
+      "projectPath": "E:\\workspace\\bootcamp-dotnet-fundamentals\\projetos\\api-transferencia-bancaria\\api-transferencia-bancaria\\api-transferencia-bancaria.csproj",
+      "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+      "outputPath": "E:\\workspace\\bootcamp-dotnet-fundamentals\\projetos\\api-transferencia-bancaria\\api-transferencia-bancaria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "D:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

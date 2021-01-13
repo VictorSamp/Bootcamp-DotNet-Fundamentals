@@ -11,3 +11,16 @@ D:\workspace\bootcamp-dotnet-essentials\projetos\api-transferencia-bancaria\api-
 D:\workspace\bootcamp-dotnet-essentials\projetos\api-transferencia-bancaria\api-transferencia-bancaria\obj\Debug\netcoreapp3.1\api-transferencia-bancaria.dll
 D:\workspace\bootcamp-dotnet-essentials\projetos\api-transferencia-bancaria\api-transferencia-bancaria\obj\Debug\netcoreapp3.1\api-transferencia-bancaria.pdb
 D:\workspace\bootcamp-dotnet-essentials\projetos\api-transferencia-bancaria\api-transferencia-bancaria\obj\Debug\netcoreapp3.1\api-transferencia-bancaria.genruntimeconfig.cache
+E:\workspace\bootcamp-dotnet-fundamentals\projetos\api-transferencia-bancaria\api-transferencia-bancaria\bin\Debug\netcoreapp3.1\api-transferencia-bancaria.exe
+E:\workspace\bootcamp-dotnet-fundamentals\projetos\api-transferencia-bancaria\api-transferencia-bancaria\bin\Debug\netcoreapp3.1\api-transferencia-bancaria.deps.json
+E:\workspace\bootcamp-dotnet-fundamentals\projetos\api-transferencia-bancaria\api-transferencia-bancaria\bin\Debug\netcoreapp3.1\api-transferencia-bancaria.runtimeconfig.json
+E:\workspace\bootcamp-dotnet-fundamentals\projetos\api-transferencia-bancaria\api-transferencia-bancaria\bin\Debug\netcoreapp3.1\api-transferencia-bancaria.runtimeconfig.dev.json
+E:\workspace\bootcamp-dotnet-fundamentals\projetos\api-transferencia-bancaria\api-transferencia-bancaria\bin\Debug\netcoreapp3.1\api-transferencia-bancaria.dll
+E:\workspace\bootcamp-dotnet-fundamentals\projetos\api-transferencia-bancaria\api-transferencia-bancaria\bin\Debug\netcoreapp3.1\api-transferencia-bancaria.pdb
+E:\workspace\bootcamp-dotnet-fundamentals\projetos\api-transferencia-bancaria\api-transferencia-bancaria\obj\Debug\netcoreapp3.1\api-transferencia-bancaria.csprojAssemblyReference.cache
+E:\workspace\bootcamp-dotnet-fundamentals\projetos\api-transferencia-bancaria\api-transferencia-bancaria\obj\Debug\netcoreapp3.1\api-transferencia-bancaria.AssemblyInfoInputs.cache
+E:\workspace\bootcamp-dotnet-fundamentals\projetos\api-transferencia-bancaria\api-transferencia-bancaria\obj\Debug\netcoreapp3.1\api-transferencia-bancaria.AssemblyInfo.cs
+E:\workspace\bootcamp-dotnet-fundamentals\projetos\api-transferencia-bancaria\api-transferencia-bancaria\obj\Debug\netcoreapp3.1\api-transferencia-bancaria.csproj.CoreCompileInputs.cache
+E:\workspace\bootcamp-dotnet-fundamentals\projetos\api-transferencia-bancaria\api-transferencia-bancaria\obj\Debug\netcoreapp3.1\api-transferencia-bancaria.dll
+E:\workspace\bootcamp-dotnet-fundamentals\projetos\api-transferencia-bancaria\api-transferencia-bancaria\obj\Debug\netcoreapp3.1\api-transferencia-bancaria.pdb
+E:\workspace\bootcamp-dotnet-fundamentals\projetos\api-transferencia-bancaria\api-transferencia-bancaria\obj\Debug\netcoreapp3.1\api-transferencia-bancaria.genruntimeconfig.cache

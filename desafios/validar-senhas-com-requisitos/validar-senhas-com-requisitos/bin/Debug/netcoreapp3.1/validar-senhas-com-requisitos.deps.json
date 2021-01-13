@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "validar-senhas-com-requisitos/1.0.0": {
+        "runtime": {
+          "validar-senhas-com-requisitos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "validar-senhas-com-requisitos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

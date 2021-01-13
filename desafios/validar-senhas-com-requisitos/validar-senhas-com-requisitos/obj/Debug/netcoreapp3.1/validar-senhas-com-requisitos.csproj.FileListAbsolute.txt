@@ -1,0 +1,13 @@
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\validar-senhas-com-requisitos\validar-senhas-com-requisitos\bin\Debug\netcoreapp3.1\validar-senhas-com-requisitos.exe
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\validar-senhas-com-requisitos\validar-senhas-com-requisitos\bin\Debug\netcoreapp3.1\validar-senhas-com-requisitos.deps.json
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\validar-senhas-com-requisitos\validar-senhas-com-requisitos\bin\Debug\netcoreapp3.1\validar-senhas-com-requisitos.runtimeconfig.json
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\validar-senhas-com-requisitos\validar-senhas-com-requisitos\bin\Debug\netcoreapp3.1\validar-senhas-com-requisitos.runtimeconfig.dev.json
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\validar-senhas-com-requisitos\validar-senhas-com-requisitos\bin\Debug\netcoreapp3.1\validar-senhas-com-requisitos.dll
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\validar-senhas-com-requisitos\validar-senhas-com-requisitos\bin\Debug\netcoreapp3.1\validar-senhas-com-requisitos.pdb
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\validar-senhas-com-requisitos\validar-senhas-com-requisitos\obj\Debug\netcoreapp3.1\validar-senhas-com-requisitos.csprojAssemblyReference.cache
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\validar-senhas-com-requisitos\validar-senhas-com-requisitos\obj\Debug\netcoreapp3.1\validar-senhas-com-requisitos.AssemblyInfoInputs.cache
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\validar-senhas-com-requisitos\validar-senhas-com-requisitos\obj\Debug\netcoreapp3.1\validar-senhas-com-requisitos.AssemblyInfo.cs
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\validar-senhas-com-requisitos\validar-senhas-com-requisitos\obj\Debug\netcoreapp3.1\validar-senhas-com-requisitos.csproj.CoreCompileInputs.cache
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\validar-senhas-com-requisitos\validar-senhas-com-requisitos\obj\Debug\netcoreapp3.1\validar-senhas-com-requisitos.dll
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\validar-senhas-com-requisitos\validar-senhas-com-requisitos\obj\Debug\netcoreapp3.1\validar-senhas-com-requisitos.pdb
+E:\workspace\bootcamp-dotnet-fundamentals\desafios\validar-senhas-com-requisitos\validar-senhas-com-requisitos\obj\Debug\netcoreapp3.1\validar-senhas-com-requisitos.genruntimeconfig.cache
