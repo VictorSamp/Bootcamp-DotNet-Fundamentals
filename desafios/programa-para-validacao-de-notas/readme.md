@@ -21,8 +21,6 @@ Antes da leitura de **X** deve ser impressa a mensagem "novo calculo (1-sim 2-na
 
 A média deve ser impressa com dois dígitos após o ponto decimal.
 
-
-
 | Exemplo de Entrada                                           | Exemplo de Saída                                             |
 | ------------------------------------------------------------ | :----------------------------------------------------------- |
 | -3.5<br />3.5<br />11.0<br />10.0<br />4<br />1<br />8.0<br />9.0<br />2<br /> | nota invalida<br />nota invalida<br />media = 6.75<br />novo calculo (1-sim 2-nao)<br />novo calculo (1-sim 2-nao)<br />media = 8.50<br />novo calculo (1-sim 2-nao) |
