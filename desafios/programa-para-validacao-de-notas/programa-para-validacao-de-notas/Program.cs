@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace programa_para_validacao_de_notas
 {
@@ -7,20 +8,42 @@ namespace programa_para_validacao_de_notas
     {
         static void Main(string[] args)
         {
-            int opcaoUsuario = 1;
-            List<double> notasValidas = new List<double>;
-        }
+            double opcaoUsuario = 1.00;
 
-        static string validarNota(double nota)
-        {
-            if (nota < 0.0 || nota > 10.0)
+            do
             {
-                return Console.WriteLine("nota invalida");
-            }
-            else
-            {
-                notasValidas.Add(nota);
-            }
+                List<double> notasValidas = new List<double> { };
+                double somaDasNotas = 0, media;
+
+                while (notasValidas.Count != 2)
+                {
+                    double nota = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                    if (nota < 0.0 || nota > 10.0)
+                    {
+                        Console.WriteLine("nota invalida");
+                    }
+                    else
+                    {
+                        notasValidas.Add(nota);
+                    }
+                }
+
+                foreach (double nota in notasValidas)
+                {
+                    somaDasNotas += nota;
+                }
+
+                media = somaDasNotas / notasValidas.Count;
+                Console.WriteLine("media = {0}", media.ToString("F2", CultureInfo.InvariantCulture));
+
+                do
+                {
+                    Console.WriteLine("novo calculo (1-sim 2-nao)");
+                    opcaoUsuario = double.Parse(Console.ReadLine());
+                } while ((opcaoUsuario != 1 && opcaoUsuario != 2) && opcaoUsuario != 2);
+
+            } while (opcaoUsuario != 2.00);
         }
     }
 }

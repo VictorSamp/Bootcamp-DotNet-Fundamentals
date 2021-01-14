@@ -1,20 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
-namespace compras_no_supermercado
+class MinhaClasse
 {
-    class Program
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
+        int numeroDeTestes = int.Parse(Console.ReadLine());
+
+        for (int i = 0; i < numeroDeTestes; i++)
         {
-            int qtdListasDeCompras;
+            List<string> listDeCompras = new List<String>(Console.ReadLine().Split(' '));
+            List<string> listaSemDuplicados = listDeCompras.Distinct().ToList();
+            listaSemDuplicados.Sort();
 
-            qtdListasDeCompras = int.Parse(Console.ReadLine()); 
-
-            for (int i = 0; i < qtdListasDeCompras; i++)
+            foreach (string item in listaSemDuplicados)
             {
-                
+                Console.Write($"{item} ");
+
             }
+
+            Console.WriteLine(" ");
         }
     }
 }
