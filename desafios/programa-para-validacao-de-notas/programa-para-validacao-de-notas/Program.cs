@@ -46,4 +46,9 @@ namespace programa_para_validacao_de_notas
             } while (opcaoUsuario != 2.00);
         }
     }
+
+    class ValidaNota
+    {
+        private bool nota;
+    }
 }

@@ -7,35 +7,68 @@ namespace validar_senhas_com_requisitos
     {
         static void Main(string[] args)
         {
-            string senhaDoUsuario;
-
-            do
+            try
             {
-                senhaDoUsuario = Console.ReadLine();
+                string senhaDoUsuario = Console.ReadLine();
 
-                bool validacaoDeTamanho = TamanhoMinimoEMaximo(senhaDoUsuario);
-                bool validacaoMinusculasEMaiusculas = LetraMaiusculaEMinuscula(senhaDoUsuario);
-                bool validacaoDeNumeros = MinimoDeNumeros(senhaDoUsuario);
-                bool validacaoCaracteresEspeciais = CaracteresEspeciais(senhaDoUsuario);
-
-                if (validacaoDeTamanho && validacaoMinusculasEMaiusculas &&
-                    validacaoDeNumeros && validacaoCaracteresEspeciais)
+                while (senhaDoUsuario != "")
                 {
-                    Console.WriteLine("Senha valida.");
+                    Validador senhaValidada = new Validador(senhaDoUsuario);
+
+                    bool tamanhoSenha = senhaValidada.ValidaTamanhoMinimoEMaximo(senhaDoUsuario);
+                    bool letrasMinusculas = senhaValidada.ValidaLetrasMinusculas(senhaDoUsuario);
+                    bool letrasMaiusculas = senhaValidada.ValidaLetrasMaiusculas(senhaDoUsuario);
+                    bool minimoDenumeros = senhaValidada.ValidaMinimoDeNumeros(senhaDoUsuario);
+                    bool caracteresEspeciais = senhaValidada.ValidaCaracteresEspeciais(senhaDoUsuario);
+
+                    if (tamanhoSenha && letrasMinusculas &&
+                        letrasMaiusculas && minimoDenumeros &&
+                        caracteresEspeciais)
+                    {
+                        Console.WriteLine("Senha valida.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Senha invalida.");
+                    }
+                    senhaDoUsuario = Console.ReadLine();
                 }
-                else
-                {
-                    Console.WriteLine("Senha invalida.");
-                }
-            } while (!string.IsNullOrWhiteSpace(senhaDoUsuario));
+            }
+            catch
+            {
+                return;
+            }
+            
+        }
+    }
+
+    class Validador
+    {
+        // Atributos
+        private string SenhaDoUsuario;
+        private int TamanhoMinimo;
+        private int TamanhoMaximo;
+        private Regex RegexLetrasMinusculas;
+        private Regex RegexLetrasMaiusculas;
+        private Regex RegexMinimoDeNumeros;
+        private Regex RegexCaracteresEspeciais;
+
+        // Construtor
+        public Validador(string senhaDoUsuario)
+        {
+            this.SenhaDoUsuario = senhaDoUsuario;
+            this.TamanhoMinimo = 6;
+            this.TamanhoMaximo = 32;
+            this.RegexLetrasMinusculas = new Regex("[a-z]");
+            this.RegexLetrasMaiusculas = new Regex("[A-Z]");
+            this.RegexMinimoDeNumeros = new Regex("[0-9]");
+            this.RegexCaracteresEspeciais = new Regex("[^a-zA-Z0-9]");
         }
 
-        public static bool TamanhoMinimoEMaximo(string senhaDoUsuario)
+        // Valida Tamanho Minimo e Máximo
+        public bool ValidaTamanhoMinimoEMaximo(string senhadousuario)
         {
-            int tamanhoMinimo = 6;
-            int tamanhoMaximo = 32;
-
-            if (senhaDoUsuario.Length < tamanhoMinimo || senhaDoUsuario.Length > tamanhoMaximo)
+            if (senhadousuario.Length < this.TamanhoMinimo || senhadousuario.Length > this.TamanhoMaximo)
             {
                 return false;
             }
@@ -43,18 +76,11 @@ namespace validar_senhas_com_requisitos
             return true;
         }
 
-        public static bool LetraMaiusculaEMinuscula(string senhaDoUsuario)
+        //Valida Letras Minusculas
+        public bool ValidaLetrasMinusculas(string senhadousuario)
         {
-            int minimoDeLetrasMaiusculas = 1;
-            int minimoDeLetrasMinusculas = 1;
 
-            Regex padraoDeMaiusculas = new Regex("[A-Z]");
-            Regex padraoDeMinusculas = new Regex("[a-z]");
-
-            MatchCollection letrasMaiusculasEncontradas = padraoDeMaiusculas.Matches(senhaDoUsuario);
-            MatchCollection letrasMinusculasEncontradas = padraoDeMinusculas.Matches(senhaDoUsuario);
-
-            if (letrasMinusculasEncontradas.Count < minimoDeLetrasMinusculas || letrasMaiusculasEncontradas.Count < minimoDeLetrasMaiusculas)
+            if (!RegexLetrasMinusculas.IsMatch(senhadousuario))
             {
                 return false;
             }
@@ -62,15 +88,10 @@ namespace validar_senhas_com_requisitos
             return true;
         }
 
-        public static bool MinimoDeNumeros(string senhaDoUsuario)
+        //Valida Letras Maiusculas
+        public bool ValidaLetrasMaiusculas(string senhadousuario)
         {
-            int minimoDeNumeros = 1;
-
-            Regex padraoDeNumeros = new Regex("[0-9]");
-
-            MatchCollection numerosEncontrados = padraoDeNumeros.Matches(senhaDoUsuario);
-
-            if (numerosEncontrados.Count < minimoDeNumeros)
+            if (!RegexLetrasMaiusculas.IsMatch(senhadousuario))
             {
                 return false;
             }
@@ -78,15 +99,21 @@ namespace validar_senhas_com_requisitos
             return true;
         }
 
-        public static bool CaracteresEspeciais(string senhaDoUsuario)
+        //Valida Minimo de Numeros
+        public bool ValidaMinimoDeNumeros(string senhadousuario)
         {
-            int minimoDeCaracteresEspeciais = 0;
+            if (!RegexMinimoDeNumeros.IsMatch(senhadousuario))
+            {
+                return false;
+            }
 
-            Regex padraoDeCaracteres = new Regex("[^a-zA-Z0-9]");
+            return true;
+        }
 
-            MatchCollection caracteresEncontrados = padraoDeCaracteres.Matches(senhaDoUsuario);
-
-            if (caracteresEncontrados.Count != minimoDeCaracteresEspeciais)
+        //Valida Caracteres Especiais
+        public bool ValidaCaracteresEspeciais(string senhadousuario)
+        {
+            if (RegexCaracteresEspeciais.IsMatch(senhadousuario))
             {
                 return false;
             }
