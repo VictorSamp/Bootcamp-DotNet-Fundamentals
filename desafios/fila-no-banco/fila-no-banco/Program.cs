@@ -1,35 +1,36 @@
 ﻿using System;
-using System.Collections.Generic;
 
-namespace fila_no_banco
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        int numeroDeTestes = int.Parse(Console.ReadLine());
+        for (int i = 1; i <= numeroDeTestes; i++)
         {
-            int casosDeTeste;
-
-            casosDeTeste = int.Parse(Console.ReadLine());
-
-            for (int i = 0; i < casosDeTeste; i++)
+            int semMudancas = 0;
+            int quantidadeDeClientes = int.Parse(Console.ReadLine());
+            string[] stringSenhas = Console.ReadLine().Split(' ');
+            int[] senhas = new int[quantidadeDeClientes];
+            int[] ordemDecrescente = new int[quantidadeDeClientes];
+            for (int j = 0; j < senhas.Length; j++)
             {
-                int numeroDeClientes = int.Parse(Console.ReadLine());
+                senhas[j] = int.Parse(stringSenhas[j]);
+                ordemDecrescente[j] = int.Parse(stringSenhas[j]);
+            }
 
-                for (int j = 0; j < numeroDeClientes; j++)
+            Array.Sort(ordemDecrescente);
+            Array.Reverse(ordemDecrescente);
+
+
+
+            for (int k = 0; k < stringSenhas.Length; k++)
+            {
+                if (senhas[k] == ordemDecrescente[k])
                 {
-                    string[] senhas = Console.ReadLine().Split(' ');
-
-                    List<int> listaDeSenhas = new List<int> { };
-
-                    foreach (string senha in senhas)
-                    {
-                        listaDeSenhas.Add(int.Parse(senha));
-                    }
-
-                    listaDeSenhas.or
-
+                    semMudancas++;
                 }
             }
+            Console.WriteLine(semMudancas);
         }
     }
 }

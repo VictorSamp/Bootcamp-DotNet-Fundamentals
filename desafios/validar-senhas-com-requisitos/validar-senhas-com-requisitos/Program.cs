@@ -37,8 +37,7 @@ namespace validar_senhas_com_requisitos
             catch
             {
                 return;
-            }
-            
+            }            
         }
     }
 
